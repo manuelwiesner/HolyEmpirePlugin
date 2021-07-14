@@ -1,0 +1,100 @@
+name: "HolyCraft"
+# provides: []
+version: "1.16.4-6"
+main: "io.github.manuelwiesner.holycraft.HolyCraftPlugin"
+# depend: []
+# softdepend: []
+# loadbefore: []
+website: "https://manuelwiesner.github.io/holycraft"
+description: "The official Holy Empire plugin!"
+# load -> STARTUP or POSTWORLD
+# load: "POSTWORLD"
+author: "Manuel Wiesner"
+# authors: []
+# default-permission -> TRUE - true; FALSE - false; OP - op, isop, operator, isoperator, admin, isadmin; NOT_OP - !op, notop, !operator, notoperator, !admin, notadmin
+# default-permission: "op"
+# awareness: []
+api-version: "1.16"
+prefix: "HolyCraft"
+
+commands:
+
+  nhome:
+    description: Manages named homes!
+    usage: |-
+      /<command> <tp|set|remove> <home-name>
+      /<command admin <list|tp|set|remove> [home-name]
+    aliases: [ ]
+
+  home:
+    description: Manages your home!
+    usage: /<command> [set|remove]
+    aliases: [ ]
+
+  warp:
+    description: Manages named warps!
+    usage: /<command> <list|tp|info|set|remove> [warp-name]
+    aliases: [ ]
+
+  spawn:
+    description: Teleports you to the warp spawn!
+    usage: /<command>
+    aliases: [ ]
+
+  message:
+    description: Sends another player a message!
+    usage: /<command> <player> <message>
+    aliases: [ msg ]
+
+  r:
+    description: Replies to messages!
+    usage: /<command> <message>
+    aliases: [ ]
+
+  language:
+    description: Shows/sets your language!
+    usage: /<command> [set|list] [language]
+    alias: [ lang ]
+
+  resolve:
+    description: Resolves the UUID of players and worlds!
+    usage: /<command> <world|player> <name>
+    aliases: [ ]
+
+  help:
+    description: Displays a list of all commands and help for them!
+    usage: /<command> [page|command]
+    aliases: [ ]
+
+  save-hc:
+    description: Saves the status of the plugin!
+    usage: /<command>
+    aliases: [ ]
+
+  holycoin:
+    description: Manages your Holycoins!
+    usage: |-
+      /<command> <transfer|balance> [player] [amount]
+      /<command> admin <adjust|balance> <player> [amount]
+      /<command> admin transfer <sender> <receiver> [amount]
+    aliases: [ coin, hc ]
+
+  deathcounter:
+    description: Manages deathcounters!
+    usage: /<command> <adjust|reset-all> [player] [amount]
+    aliases: [ dc ]
+
+  clantag:
+    description: Manages your clan-tag!
+    usage: /<command> <set|remove> [name]
+    aliases: [ ]
+
+  property:
+    description: Manages your properties!
+    usage: |-
+      /<command> <buy | sell | info>
+      /<command> <allow | disallow> <build | block | entity | chest | explode | pvp>
+      /<command> <grant | revoke> <player> <build | block | entity | chest>
+    aliases: [ prop, gs, land ]
+
+  voting:

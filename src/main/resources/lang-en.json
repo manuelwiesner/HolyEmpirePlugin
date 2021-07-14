@@ -1,0 +1,4224 @@
+{
+  "language-name": "English",
+  "prefixes": {
+    "ERROR": [
+        {
+          "text": "[",
+          "color": "DARK_GRAY",
+          "format": "BOLD",
+          "click-event": null,
+          "hover-event": null
+        },
+        {
+          "text": "ERROR",
+          "color": "RED"
+        },
+        {
+          "text": "] ",
+          "color": "DARK_GRAY",
+          "format": "BOLD",
+          "click-event": null,
+          "hover-event": null
+        }
+    ],
+    "MSG": [
+        {
+          "text": "[",
+          "color": "DARK_GRAY",
+          "format": "BOLD",
+          "click-event": null,
+          "hover-event": null
+        },
+        {
+          "text": "MSG",
+          "color": "YELLOW"
+        },
+        {
+          "text": "] ",
+          "color": "DARK_GRAY",
+          "format": "BOLD",
+          "click-event": null,
+          "hover-event": null
+        }
+    ],
+    "HOLYCRAFT": [
+        {
+          "text": "[",
+          "color": "DARK_GRAY",
+          "format": "BOLD",
+          "click-event": null,
+          "hover-event": null
+        },
+        {
+          "text": "HC",
+          "color": "GOLD"
+        },
+        {
+          "text": "] ",
+          "color": "DARK_GRAY",
+          "format": "BOLD",
+          "click-event": null,
+          "hover-event": null
+        }
+    ],
+    "CHESTSHOP": [
+        {
+          "text": "[",
+          "color": "DARK_GRAY",
+          "format": "BOLD",
+          "click-event": null,
+          "hover-event": null
+        },
+        {
+          "text": "ChestShop",
+          "color": "DARK_PURPLE"
+        },
+        {
+          "text": "] ",
+          "color": "DARK_GRAY",
+          "format": "BOLD",
+          "click-event": null,
+          "hover-event": null
+        }
+    ]
+  },
+  "translations": {
+    "err.translation": {
+      "position": "CHAT",
+      "prefix": "ERROR",
+      "parts": [
+        [
+        {
+          "text": "Please contact a developer!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Translation for ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " is missing!",
+          "color": "GRAY"
+        }
+        ]
+      ]
+    },
+    "err.cmd.unknown": {
+      "position": "CHAT",
+      "prefix": "ERROR",
+      "parts": [
+        {
+          "text": "Unknown command ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": ", type ",
+          "color": "GRAY"
+        },
+        {
+          "text": "/help",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "err.cmd.unhandled": {
+      "position": "CHAT",
+      "prefix": "ERROR",
+      "parts": [
+        [
+        {
+          "text": "Please contact a developer!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Error in command ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": " - ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "DARK_GRAY"
+        }
+        ]
+      ]
+    },
+    "err.cmd.only-player": {
+      "position": "CHAT",
+      "prefix": "ERROR",
+      "parts": [
+        {
+          "text": "Command ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " can only be used by players!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "err.cmd.arg.invalid": {
+      "position": "CHAT",
+      "prefix": "ERROR",
+      "parts": [
+        {
+          "text": "Last argument",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " must be one of ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "err.cmd.arg.count": {
+      "position": "CHAT",
+      "prefix": "ERROR",
+      "parts": [
+        {
+          "text": "Argument ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " expects only ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": " arguments after it!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "err.cmd.arg.number": {
+      "position": "CHAT",
+      "prefix": "ERROR",
+      "parts": [
+        {
+          "text": "Argument ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " must be a number!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "err.cmd.arg.number-range": {
+      "position": "CHAT",
+      "prefix": "ERROR",
+      "parts": [
+        {
+          "text": "Argument ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " must be a number between ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": " and ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "err.cmd.arg.online-player": {
+      "position": "CHAT",
+      "prefix": "ERROR",
+      "parts": [
+        {
+          "text": "Argument ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " must be an online player!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "err.cmd.arg.offline-player": {
+      "position": "CHAT",
+      "prefix": "ERROR",
+      "parts": [
+        {
+          "text": "Player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " has not played on this server!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.not-set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You do not have a home named ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " yet!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.tp.not-allowed": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You can only teleport to your homes in the overworld!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.tp": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Teleporting to home ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": "...",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.set.not-allowed": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You can only set your homes in the overworld!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.already-set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You already have a home named ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": ", remove it first!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Set home ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " to ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.remove": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Removed home ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " at ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "RED"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.admin.not-set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " does not have a home named ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.admin.no-homes": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " does not have any homes!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.admin.list": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Homes of player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": ": ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.admin.tp": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Teleporting to home ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": " of player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.admin.already-set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " already has a home named ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.admin.set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Set home ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": " of player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " to ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 4,
+          "color": "GREEN"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.nhome.admin.remove": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Removed home ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": " ",
+          "color": "RED"
+        },
+        {
+          "text": "of player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " ",
+          "color": "RED"
+        },
+        {
+          "text": "at ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 2,
+          "color": "RED"
+        },
+        {
+          "text": ",",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "RED"
+        },
+        {
+          "text": ",",
+          "color": "GRAY"
+        },
+        {
+          "index": 4,
+          "color": "RED"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.home.not-set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        [
+        {
+          "text": "You do not have a home yet!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "You can set one using ",
+          "color": "GRAY"
+        },
+        {
+          "text": "/home set",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+        ]
+      ]
+    },
+    "cmd.home.tp.not-allowed": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You can only teleport to your home in the overworld!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.home.tp": {
+      "position": "ACTION_BAR",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Teleporting to your home...",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.home.set.not-allowed": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You can only set your home in the overworld!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.home.already-set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You already have a home, remove it first!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.home.set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Set your home to ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.home.remove": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Removed your home at ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "RED"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.warp.list": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Available warps: ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.warp.not-set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "There is no warp named ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.warp.tp.not-allowed": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You can only warp in the overworld!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.warp.info": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Warp ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " is located at ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.warp.tp": {
+      "position": "ACTION_BAR",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Teleporting to warp ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": "...",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.warp.already-set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Warp ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " already exits, remove it first!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.warp.set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Set warp ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " to ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.warp.remove": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Removed warp ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " at ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "RED"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.message.args": {
+      "position": "CHAT",
+      "prefix": "MSG",
+      "parts": [
+        {
+          "text": "You must specify a recipient and a message!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.message.yourself": {
+      "position": "CHAT",
+      "prefix": "MSG",
+      "parts": [
+        {
+          "text": "You can not send yourself a message!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.message.received": {
+      "position": "CHAT",
+      "prefix": "MSG",
+      "parts": [
+        {
+          "text": "From ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " » ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.message.sent": {
+      "position": "CHAT",
+      "prefix": "MSG",
+      "parts": [
+        {
+          "text": "To ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " » ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.r.no-msg": {
+      "position": "CHAT",
+      "prefix": "MSG",
+      "parts": [
+        {
+          "text": "Please enter a message to reply!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.r.no-interactor": {
+      "position": "CHAT",
+      "prefix": "MSG",
+      "parts": [
+        [
+        {
+          "text": "No player has messaged you recently!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Use ",
+          "color": "GRAY"
+        },
+        {
+          "text": "/msg <player> <message>",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+        ]
+      ]
+    },
+    "cmd.language.get": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Your current language is ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.language.set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Set your current language to ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.language.list": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Available languages: ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.resolve.world": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "UUID of world ",
+          "color": "GRAY",
+          "format": null,
+          "click-event": {
+            "action": "COPY_TO_CLIPBOARD",
+            "value": "{1}"
+          },
+          "hover-event": {
+            "action": "SHOW_TEXT",
+            "content": [
+              "Click to copy!"
+            ]
+          }
+        },
+        {
+          "index": 0,
+          "color": "GREEN",
+          "format": null,
+          "click-event": {
+            "action": "COPY_TO_CLIPBOARD",
+            "value": "{1}"
+          },
+          "hover-event": {
+            "action": "SHOW_TEXT",
+            "content": [
+              "Click to copy!"
+            ]
+          }
+        },
+        {
+          "text": ": ",
+          "color": "GRAY",
+          "format": null,
+          "click-event": {
+            "action": "COPY_TO_CLIPBOARD",
+            "value": "{1}"
+          },
+          "hover-event": {
+            "action": "SHOW_TEXT",
+            "content": [
+              "Click to copy!"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "color": "DARK_GRAY",
+          "format": null,
+          "click-event": {
+            "action": "COPY_TO_CLIPBOARD",
+            "value": "{1}"
+          },
+          "hover-event": {
+            "action": "SHOW_TEXT",
+            "content": [
+              "Click to copy!"
+            ]
+          }
+        }
+      ]
+    },
+    "cmd.resolve.no-such-world": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "There is no world named ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.resolve.player": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "UUID of player ",
+          "color": "GRAY",
+          "format": null,
+          "click-event": {
+            "action": "COPY_TO_CLIPBOARD",
+            "value": "{1}"
+          },
+          "hover-event": {
+            "action": "SHOW_TEXT",
+            "content": [
+              "Click to copy!"
+            ]
+          }
+        },
+        {
+          "index": 0,
+          "color": "GREEN",
+          "format": null,
+          "click-event": {
+            "action": "COPY_TO_CLIPBOARD",
+            "value": "{1}"
+          },
+          "hover-event": {
+            "action": "SHOW_TEXT",
+            "content": [
+              "Click to copy!"
+            ]
+          }
+        },
+        {
+          "text": ": ",
+          "color": "GRAY",
+          "format": null,
+          "click-event": {
+            "action": "COPY_TO_CLIPBOARD",
+            "value": "{1}"
+          },
+          "hover-event": {
+            "action": "SHOW_TEXT",
+            "content": [
+              "Click to copy!"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "color": "DARK_GRAY",
+          "format": null,
+          "click-event": {
+            "action": "COPY_TO_CLIPBOARD",
+            "value": "{1}"
+          },
+          "hover-event": {
+            "action": "SHOW_TEXT",
+            "content": [
+              "Click to copy!"
+            ]
+          }
+        }
+      ]
+    },
+    "cmd.help.page-header": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "------ ",
+          "color": "YELLOW"
+        },
+        {
+          "text": "Help page ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " of ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": " ------",
+          "color": "YELLOW"
+        }
+      ]
+    },
+    "cmd.help.page-footer": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "---------------------------",
+          "color": "YELLOW"
+        }
+      ]
+    },
+    "cmd.help.page-entry": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " » ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.help.for-header": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "----- Help for ",
+          "color": "YELLOW"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " -----",
+          "color": "YELLOW"
+        }
+      ]
+    },
+    "cmd.help.for-footer": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "---------------------------",
+          "color": "YELLOW"
+        }
+      ]
+    },
+    "cmd.help.for-descr": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Description ",
+          "color": "GRAY"
+        },
+        {
+          "text": "» ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.help.for-usage": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Usage ",
+          "color": "GRAY"
+        },
+        {
+          "text": "» ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.help.for-aliases": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Aliases ",
+          "color": "GRAY"
+        },
+        {
+          "text": "» ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.save.success": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Saved to the disk!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.save.failure": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Failed to save: ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " - ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.holycoin.self-transfer": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You can not send yourself Holycoins!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.holycoin.transferred": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        [
+        {
+          "text": "You sent ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins to ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Your new balance is ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+        ]
+      ]
+    },
+    "cmd.holycoin.missing-funds": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        [
+        {
+          "text": "You do not have ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Your current balance is ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+        ]
+      ]
+    },
+    "cmd.holycoin.received": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        [
+        {
+          "text": "You received ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins from ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Your new balance is ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+        ]
+      ]
+    },
+    "cmd.holycoin.balance": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Your balance is ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins",
+          "color": "GRAY"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.holycoin.adjusted": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        [
+        {
+          "text": "Your Holycoin balance was adjusted by ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Your new balance is ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+        ]
+      ]
+    },
+    "cmd.holycoin.admin.same-player": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Sender and receiver are the same player!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.holycoin.admin.transferred": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        [
+        {
+          "text": "Sent ",
+          "color": "GRAY"
+        },
+        {
+          "index": 4,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins from ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " to ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Sender: ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins, Receiver: ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+        ]
+      ]
+    },
+    "cmd.holycoin.admin.missing-funds": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        [
+        {
+          "text": "Player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " does not have ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "RED"
+        },
+        {
+          "text": " coins!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Players balance: ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+        ]
+      ]
+    },
+    "cmd.holycoin.admin.balance": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " has ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.holycoin.admin.adjust": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Adjusted balance of ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " by ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": " to ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.deathcounter.set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Set deathcounter of ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " from ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": " to ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.deathcounter.adjusted": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Adjusted deathcounter of ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " by ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": " to ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.deathcounter.reset-all": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Reset the deathcounter of all players!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.clantag.long": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Your clan-tag can be no longer than ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": " characters!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.clantag.set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Set your clan-tag to ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.clantag.admin-set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Set clan-tag of ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " to ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.clantag.not-set": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You do not have a clan-tag!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.clantag.remove": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Removed your clan-tag ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.missing-funds": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You do not have ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "RED"
+        },
+        {
+          "text": " Holycoins to buy this property!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.already-owned": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "This property already belongs to someone!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.bought": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You bought the property at ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": " for ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "RED"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.wrong-environment": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Properties can not be bought here!",
+          "color": "RED"
+        }
+      ]
+    },
+    "cmd.property.unowned": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        [
+        {
+          "text": "This property does not belong to anyone!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "You can buy it for ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+        ]
+      ]
+    },
+    "cmd.property.not-yours": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "This property does not belong to you!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.sold": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You sold your property at ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "RED"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": " for ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.can-not-buy": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You can not buy this property!",
+          "color": "RED"
+        }
+      ]
+    },
+    "cmd.property.can-not-sell": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You can not sell this property!",
+          "color": "RED"
+        }
+      ]
+    },
+    "cmd.property.info.header": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "---- ",
+          "color": "YELLOW"
+        },
+        {
+          "text": "Property ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": " belongs to ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": " ----",
+          "color": "YELLOW"
+        }
+      ]
+    },
+    "cmd.property.info.values": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        [
+        {
+          "text": "Building: ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Block-Interacting: ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Entity-Interacting: ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Chest-Interacting: ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Explosions: ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 4,
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Causality: ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 5,
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "PvP: ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 6,
+          "color": "GRAY"
+        }
+        ]
+      ]
+    },
+    "cmd.property.info.granted-players": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "index": 0,
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": " exceptions: [",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "cmd.property.info.refund": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You paid ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " Holycoins, your refund is ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.info.footer": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "-------------------------------------",
+          "color": "YELLOW"
+        }
+      ]
+    },
+    "cmd.property.list.header": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "------ ",
+          "color": "YELLOW"
+        },
+        {
+          "text": "You own ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " properties ",
+          "color": "GRAY"
+        },
+        {
+          "text": "------",
+          "color": "YELLOW"
+        }
+      ]
+    },
+    "cmd.property.list.entry": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Chunk ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": ", paid ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "RED"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.list.footer": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "-------------------------------------",
+          "color": "YELLOW"
+        }
+      ]
+    },
+    "cmd.property.no-properties": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You do not own any properties!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.allow-all": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You allowed ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " at ALL of your properties!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.disallow-all": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You disallowed ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " at ALL of your properties!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.allow": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You allowed ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": " at this property!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.disallow": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You disallowed ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "RED"
+        },
+        {
+          "text": " at this property!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.self-grant": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You can't ",
+          "color": "GRAY"
+        },
+        {
+          "text": "grant ",
+          "color": "GREEN"
+        },
+        {
+          "text": "/ ",
+          "color": "GRAY"
+        },
+        {
+          "text": "revoke rights to yourself!",
+          "color": "RED"
+        }
+      ]
+    },
+    "cmd.property.grant-all": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        [
+        {
+          "text": "You granted ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": " to player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " at ALL of your properties!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": " newly granted, ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": " were already granted!",
+          "color": "GRAY"
+        }
+        ]
+      ]
+    },
+    "cmd.property.revoke-all": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        [
+        {
+          "text": "You revoked ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": " from player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " at ALL of your properties!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": " newly revoked, ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": " were already revoked!",
+          "color": "GRAY"
+        }
+        ]
+      ]
+    },
+    "cmd.property.already-granted": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "index": 4,
+          "color": "GREEN"
+        },
+        {
+          "text": " is already granted to ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": " at this property!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.grant": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You granted ",
+          "color": "GRAY"
+        },
+        {
+          "index": 4,
+          "color": "GREEN"
+        },
+        {
+          "text": " to player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": " at this property!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.already-revoked": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "index": 4,
+          "color": "RED"
+        },
+        {
+          "text": " is ",
+          "color": "GRAY"
+        },
+        {
+          "text": "NOT",
+          "color": "DARK_RED"
+        },
+        {
+          "text": " granted to ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "RED"
+        },
+        {
+          "text": " at this property!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.revoke": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "You revoked ",
+          "color": "GRAY"
+        },
+        {
+          "index": 4,
+          "color": "RED"
+        },
+        {
+          "text": " from player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": " at this property!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.admin.missing-funds": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": " does not have ",
+          "color": "GRAY"
+        },
+        {
+          "index": 4,
+          "color": "RED"
+        },
+        {
+          "text": "Holycoins!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.admin.bought": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": " bought the property at ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": " for ",
+          "color": "GRAY"
+        },
+        {
+          "index": 4,
+          "color": "RED"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.admin.sold": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": " sold the property at ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "RED"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": " for ",
+          "color": "GRAY"
+        },
+        {
+          "index": 4,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "cmd.property.admin.list": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "---- ",
+          "color": "YELLOW"
+        },
+        {
+          "text": "Player ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " owns ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " properties ",
+          "color": "GRAY"
+        },
+        {
+          "text": "----",
+          "color": "YELLOW"
+        }
+      ]
+    },
+    "cmd.property.admin.spawn-claim": {
+      "position": "CHAT",
+      "prefix": "HOLYCRAFT",
+      "parts": [
+        {
+          "text": "Claimed spawn chunks, ",
+          "color": "GRAY"
+        },
+        {
+          "text": "newlyClaimed=",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "text": "alreadyClaimed=",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "text": "removed=",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        }
+      ]
+    },
+    "property.forbidden.block-interact": {
+      "position": "ACTION_BAR",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "BLOCK-INTERACT",
+          "color": "DARK_RED"
+        },
+        {
+          "text": "] ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "Denied ",
+          "color": "RED"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "property.forbidden.build": {
+      "position": "ACTION_BAR",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "BUILD",
+          "color": "DARK_RED"
+        },
+        {
+          "text": "] ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "Denied ",
+          "color": "RED"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "property.forbidden.chest-interact": {
+      "position": "ACTION_BAR",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "CHEST-INTERACT",
+          "color": "DARK_RED"
+        },
+        {
+          "text": "] ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "Denied ",
+          "color": "RED"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "property.forbidden.entity-interact": {
+      "position": "ACTION_BAR",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "ENTITY-INTERACT",
+          "color": "DARK_RED"
+        },
+        {
+          "text": "] ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "Denied ",
+          "color": "RED"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "property.forbidden.pvp": {
+      "position": "ACTION_BAR",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "PVP",
+          "color": "DARK_RED"
+        },
+        {
+          "text": "] ",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": "Denied ",
+          "color": "RED"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "property.info.double-chest": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "You created an unsafe double-chest!",
+          "color": "RED"
+        }
+      ]
+    },
+    "chestshop.explanation": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        [
+        {
+          "text": "You made a mistake at line ",
+          "color": "RED"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        }
+        ],
+        [
+        {
+          "text": "Check the ",
+          "color": "RED"
+        },
+        {
+          "text": "discord",
+          "color": "GREEN",
+          "format": "UNDERLINE",
+          "click-event": {
+            "action": "OPEN_URL",
+            "value": "http://discord.com/invite/bQztk95bN6"
+          },
+          "hover-event": {
+            "action": "SHOW_TEXT",
+            "content": [
+              "Click Me!"
+            ]
+          }
+        },
+        {
+          "text": " for an explanation!",
+          "color": "RED"
+        }
+        ]
+      ]
+    },
+    "chestshop.remove-all-shops-from-property": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "Remove all ChestShops from this property!",
+          "color": "RED"
+        }
+      ]
+    },
+    "chestshop.part-of-shop": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "This chest belongs to a ChestShop!",
+          "color": "RED"
+        }
+      ]
+    },
+    "chestshop.destroyed": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "Removed your ChestShop at ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "RED"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "chestshop.admin-destroyed": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "Removed ChestShop of ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " at ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": ",",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "RED"
+        },
+        {
+          "text": ",",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "RED"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 4,
+          "color": "RED"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        }
+      ]
+    },
+    "chestshop.not-your-shop": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "This ChestShop does not belong to you!",
+          "color": "RED"
+        }
+      ]
+    },
+    "chestshop.not-your-property": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "You can only create ChestShops on your own properties!",
+          "color": "RED"
+        }
+      ]
+    },
+    "chestshop.multiple-chests": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        [
+        {
+          "text": "Multiple chest around the sign found!",
+          "color": "RED"
+        }
+        ],
+        [
+        {
+          "text": "Only a single double-chest allowed!",
+          "color": "RED"
+        }
+        ]
+      ]
+    },
+    "chestshop.no-chest-found": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        [
+        {
+          "text": "No chests around the sign found!",
+          "color": "RED"
+        }
+        ],
+        [
+        {
+          "text": "Please place a double-chest first!",
+          "color": "RED"
+        }
+        ]
+      ]
+    },
+    "chestshop.only-double-chest": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "ChestShop can only be created with double-chests!",
+          "color": "RED"
+        }
+      ]
+    },
+    "chestshop.already-part-of-shop": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "This double-chest is already part of a ChestShop!",
+          "color": "RED"
+        }
+      ]
+    },
+    "chestshop.can-not-use-yourself": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "You can not use your own shops!",
+          "color": "RED"
+        }
+      ]
+    },
+    "chestshop.created": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        [
+        {
+          "text": "Created ChestShop at ",
+          "color": "GRAY"
+        },
+        {
+          "text": "[",
+          "color": "DARK_GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": ", ",
+          "color": "GRAY"
+        },
+        {
+          "index": 3,
+          "color": "GREEN"
+        },
+        {
+          "text": "]",
+          "color": "DARK_GRAY"
+        },
+        {
+          "text": " for ",
+          "color": "GRAY"
+        },
+        {
+          "index": 8,
+          "color": "DARK_GREEN"
+        }
+        ],
+        [
+        {
+          "text": "Amount: ",
+          "color": "GRAY"
+        },
+        {
+          "index": 7,
+          "color": "GREEN"
+        },
+        {
+          "text": ", Buy-Price: ",
+          "color": "GRAY"
+        },
+        {
+          "index": 5,
+          "color": "GREEN"
+        },
+        {
+          "text": ", Sell-Price: ",
+          "color": "GRAY"
+        },
+        {
+          "index": 6,
+          "color": "RED"
+        },
+        {
+          "text": "!",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "Shop-Owner: ",
+          "color": "GRAY"
+        },
+        {
+          "index": 4,
+          "color": "GREEN"
+        }
+        ]
+      ]
+    },
+    "chestshop.no-buying-from-player": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "You can not ",
+          "color": "GRAY"
+        },
+        {
+          "text": "sell",
+          "color": "RED"
+        },
+        {
+          "text": " at this ChestShop!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "chestshop.no-selling-to-player": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "You can not ",
+          "color": "GRAY"
+        },
+        {
+          "text": "buy",
+          "color": "GREEN"
+        },
+        {
+          "text": " at this ChestShop!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "chestshop.shop-empty": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "This ChestShop is empty!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "chestshop.shop-full": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "This ChestShop is full!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "chestshop.player-empty": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "You do not have ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " of ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": " to sell!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "chestshop.player-full": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "Your inventory doesn't have enough free space!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "chestshop.insolvent": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "The owner of this ChestShop is insolvent!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "chestshop.missing-holycoins": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "You do not have ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "chestshop.sold": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "You sold ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "RED"
+        },
+        {
+          "text": " of ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "RED"
+        },
+        {
+          "text": " for ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "GREEN"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "chestshop.bought": {
+      "position": "CHAT",
+      "prefix": "CHESTSHOP",
+      "parts": [
+        {
+          "text": "You bought ",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GREEN"
+        },
+        {
+          "text": " of ",
+          "color": "GRAY"
+        },
+        {
+          "index": 1,
+          "color": "GREEN"
+        },
+        {
+          "text": " for ",
+          "color": "GRAY"
+        },
+        {
+          "index": 2,
+          "color": "RED"
+        },
+        {
+          "text": " Holycoins!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.nhome": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Manages named homes!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.home": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Manges your home!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.warp": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Manges named warps!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.spawn": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Teleports you to the spawn!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.message": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Sends private messages!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.r": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Replies to a message!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.language": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Manges your language!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.resolve": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Resolves an UUID!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.help": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Displays help!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.save": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Saves to the disk!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.holycoin": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Manages your Holycoins!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.deathcounter": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Manges deathcounters!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.clantag": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Manages your clan-tag!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.descr.property": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "Manages your properties!",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.nhome": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " <tp | set | remove> <home-name>",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.home": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " [set | remove]",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.warp": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " <list | tp | info> [warp-name]",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.spawn": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.message": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " <player> <message>",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.r": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " <message>",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.language": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " [set | list] [language]",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.resolve": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " <world | player> <name>",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.help": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " [page | command]",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.save": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.holycoin": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " <transfer | balance> [player] [amount]",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.deathcounter": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " <adjust | reset-all> [player] [amount]",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.clantag": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " <set | remove> [name]",
+          "color": "GRAY"
+        }
+      ]
+    },
+    "help.usage.property": {
+      "position": "CHAT",
+      "prefix": null,
+      "parts": [
+        [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " <buy | sell | info | list>",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " <allow | disallow> <allow-type...",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "...build,block,entity,chest,explode,causality,pvp>",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "/",
+          "color": "GRAY"
+        },
+        {
+          "index": 0,
+          "color": "GRAY"
+        },
+        {
+          "text": " <grant | revoke> <player> <grant-type...",
+          "color": "GRAY"
+        }
+        ],
+        [
+        {
+          "text": "...build,block,entity,chest>",
+          "color": "GRAY"
+        }
+        ]
+      ]
+    }
+  }
+}

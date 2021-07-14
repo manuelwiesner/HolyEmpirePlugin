@@ -1,0 +1,66 @@
+lang:
+  default: en
+  console: en
+  languages:
+    - en
+feature:
+  economy:
+    startingBalance: 1000
+    transactionId: 20
+  warp:
+    allowedWorlds:
+      - world
+    warps:
+      - spawn#{"world":"world","x":"600.0","y":"69.1","z":"392.0","pitch":"0.0","yaw":"-90.0"}
+  tablist:
+    prefix:
+      length: 4
+      format: §7[PREFIX§7]
+    postfix:
+      format: §ePOSTFIX
+    header: '   §f§l❄ §e§lHo Ho Holy Empire''s Xmas Craft §f§l❄§r   '
+    footer: '   §7Plugin developed by Manuel Wiesner   '
+  cosmetic:
+    joinMessages:
+      - §a» <PLAYER>§7 joined the Empire.
+      - §a» <PLAYER>§7 is ready to conquer.
+      - §a» <PLAYER>§7 kommt, sieht und siegt.
+      - §a» <PLAYER>§7 ist endlich da.
+      - §a» <PLAYER>§7 will wieder Beef.
+      - §a» <PLAYER>§7 ist da. Salutiert!
+      - §a» <PLAYER>§7 betritt die königlichen Hallen.
+      - §a» <PLAYER>§7 joined the Gay.
+      - §a» <PLAYER>§7 gehört jetzt zu den Coolen.
+      - §a» <PLAYER>§7 ist bereit.
+      - §a» <PLAYER>§7 wurdelt her.
+      - §a» <PLAYER>§7 kommt in die Gruppe.
+      - §a» <PLAYER>§7 kommt um <OTHER> zu boxen.
+      - §a» <PLAYER>§7 baut nun Felix's Turm ab.
+      - §a» <PLAYER>§7 huldigt nun das Red Cross.
+      - §a» <PLAYER>§7 grieft.
+      - §a» <PLAYER>§7 salvete, amici.
+      - §a» <PLAYER>§7 kommt um <OTHER> zu dreschen.
+      - §a» <PLAYER>§7 beglückt nun <OTHER>.
+      - §a» <PLAYER>§7 spielt nun mit.
+      - §a» <PLAYER>§7 kuschelt nun mit <OTHER>
+      - §a» <PLAYER>§7 kommt, sieht und siegt.
+      - §a» <PLAYER>§7 ist hier um zu handeln.
+      - §a» <PLAYER>§7 verteilt seine Viren.
+    quitMessages:
+      - §c« <PLAYER>§7 geht mit Stolz.
+      - §c« <PLAYER>§7 weint sich nun in den Schlaf.
+      - §c« <PLAYER>§7 fährt zu Oma essen.
+      - §c« <PLAYER>§7 muss dringend auf die Toilette.
+      - §c« <PLAYER>§7 wird gerade überfallen.
+      - §c« <PLAYER>§7 kam, sah und siegte.
+      - §c« <PLAYER>§7 ist nur kurz seine Pflanzen gießen.
+      - §c« <PLAYER>§7 geht ohne sich zu verabschieden.
+      - §c« <PLAYER>§7 despawnt, aber gröber!
+      - §c« <PLAYER>§7 versteckt sich.
+      - §c« <PLAYER>§7 schleicht sich, das Oaschloch.
+      - §c« <PLAYER>§7 grieft.
+    chatFormat: §8[§dCHAT§8] §a%s§8 » §7%s
+  update:
+    message: "The §6HolyCraft§7 plugin has been §aupdated§7!\nUpgrades people, upgrades!\nCheckout the Properties, Chat-Colors, ChestShops and more!"
+property:
+  refundMultiplier: 0.75
